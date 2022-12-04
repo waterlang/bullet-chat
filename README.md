@@ -12,4 +12,4 @@ client 客户端：与comet进行建立链接，接收消息和发送消息; <p>
 kafka,redis,nacos 这几个中间件。本项目原则上支持水平扩展，但这个到了一定量级后要考虑的是db的路由链接等能力。
 
 ## 架构图：
-<img width="780" alt="图片" src="https://user-images.githubusercontent.com/9714046/205480482-eb04c2b4-8e74-4851-9c14-e9bb6e2458ce.png">
+<img width="775" alt="图片" src="https://user-images.githubusercontent.com/9714046/205480629-dec6b8d0-04be-4c1a-9ffa-01b6ef315b4a.png">
