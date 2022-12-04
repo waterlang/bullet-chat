@@ -37,8 +37,7 @@ public class BulletChatClient {
     public static void main(String[] args) throws Exception {
         for (int i = 0; i < 10000; i++) {
             executorService.submit(() -> {
-//                final String url = "ws://39.106.127.235:8889?roomId=1&token=" + atomicInteger.incrementAndGet();
-                final String url = "ws://124.222.189.143:8889?roomId=1&token=" + atomicInteger.incrementAndGet();
+                final String url = "ws://127.0.0.1:8889?roomId=1&token=" + atomicInteger.incrementAndGet();
                 final BulletChatClient client = new BulletChatClient();
                 URI uri = URI.create(url);
                 try {
