@@ -11,4 +11,5 @@ client 客户端：与comet进行建立链接，接收消息和发送消息;
 该项目只提供了基本的收发消息能力，比如像消息的敏感词、消息过滤及限流、client询址（server）等能力并没有提供。启动该项目还需要依赖
 kafka,redis,nacos 这几个中间件。本项目原则上支持水平扩展，但这个到了一定量级后要考虑的是db的路由链接等能力。
 
-架构图：
+## 架构图：
+<img width="771" alt="图片" src="https://user-images.githubusercontent.com/9714046/205480401-2d42e61d-73a9-4b29-a167-4f84d54ad951.png">
