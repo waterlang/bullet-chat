@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: bullet-logic
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+#        server-addr: 127.0.0.1:8848
+        server-addr: 192.168.22.129:8848
+
+server:
+  port: 8086
+
+spring.redis.cluster.nodes: 82.157.68.174:7001,82.157.68.174:7002,82.157.68.174:7003
+spring.kafka.nodes: 192.168.22.129:9092
